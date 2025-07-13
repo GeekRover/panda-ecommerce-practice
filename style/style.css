@@ -167,3 +167,89 @@ input::placeholder{
     border-radius: 15px;
     padding: 15px;
 }
+
+/* Middle background */
+.background{
+    background-color: #F4F4F4;
+    height: 1486px;
+}
+
+.see-all{
+    display: flex;
+    justify-content: space-between;
+}
+
+.see-all a{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    color: #FF9D00;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* Shoe Section */
+.shoes-container{
+    width: 1128px;
+    height: 610px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+
+.mother{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+}
+
+.shoe-card{
+    width: 360px;
+    height: 532px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.233);
+    padding: 12px;
+}
+
+.shoe-card img{
+    width: 326px;
+    height: 202px;
+}
+
+.shoe-card button{
+    width: 168px;
+    height: 52px;
+    background-color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.bag-card{
+    width: 360px;
+    height: 532px;
+    border: 1px solid rgba(0, 0, 0, 0.075);
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.233);
+    padding: 12px;
+}
+
+.bag-card button{
+    width: 168px;
+    height: 52px;
+    background-color: #000000;
+    border: none;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.bag-card img{
+    width: 290px;
+    height: 260px;
+}
