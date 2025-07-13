@@ -172,6 +172,7 @@ input::placeholder{
 .background{
     background-color: #F4F4F4;
     height: 1486px;
+    margin-bottom: 70px;
 }
 
 .see-all{
@@ -252,4 +253,54 @@ input::placeholder{
 .bag-card img{
     width: 290px;
     height: 260px;
+}
+
+/* Footer Section */
+footer{
+    width: 1212px;
+    height: 455px;
+    background-color: #FFF2F1;
+    margin: 0 auto;
+     margin-bottom: 75px;
+     border-radius: 20px;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+footer section{
+    display: flex;
+    gap: 0px;
+}
+
+footer section button{
+    width: 157px;
+    height: 73px;
+    border: none;
+    background-image: linear-gradient(#FF589B, #FF136F);
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 0px 6px 6px 0px;
+}
+
+footer section input{
+    width: 526px;
+    height: 73px;
+    border: none;
+    border-radius: 6px 0px 0px 6px;
+    padding-left: 35px;
+
+}
+footer section input::placeholder{
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    color: #CCCCCC;
+}
+
+p{
+    font-size: 16px;
+    color: #707070;
+    font-weight: 500;
 }
